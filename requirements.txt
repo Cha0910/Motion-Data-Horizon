@@ -1,0 +1,9 @@
+torch
+transformers
+Pillow
+opencv-python
+numpy
+scipy
+openpyxl
+pandas
+matplotlib

@@ -1,0 +1,16 @@
+.venv/
+venv/
+env/
+*.exe
+inputs/*
+!inputs/.gitkeep
+outputs/
+*.mp4
+*.avi
+*.mov
+*.xlsx
+*.png
+__pycache__/
+*.pyc
+.idea/
+.vscode/
