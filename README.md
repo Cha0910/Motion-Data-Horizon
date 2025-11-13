@@ -51,8 +51,13 @@
 ---
 
 ## 설치 및 실행 방법
+### 1.  **프로젝트 클론:**
+터미널을 열고 원하는 위치에서 다음 명령어를 실행하여 프로젝트를 클론합니다.
+```bash
+  git clone https://github.com/Cha0910/Motion-Data-Horizon.git
+  ```
 
-### 1. 환경 설정
+### 2. 환경 설정
 
 `requirements.txt` 파일을 사용하여 필요한 모든 Python 라이브러리를 설치합니다.
 
@@ -60,7 +65,7 @@
 pip install -r requirements.txt
 ````
 
-### 2. 실행 방법
+### 3. 실행 방법
 
 1.  **원본 영상 준비:** 처리할 영상 파일들을 **`../inputs/`** 폴더에 복사합니다.
 
@@ -72,7 +77,7 @@ pip install -r requirements.txt
 python HorizonDetector/horizon_detector.py
 ```
 
-### 3. 사용자 입력
+### 4. 사용자 입력
 
 실행 중 다음과 같은 입력이 필요합니다.
 
@@ -83,7 +88,7 @@ python HorizonDetector/horizon_detector.py
 
 2.  **Pitch Scale 입력:** Pitch 데이터의 민감도를 조정할 배율을 입력합니다. (기본값: 200)
 
-### 4. 결과 확인
+### 5. 결과 확인
 
 스크립트 실행이 완료되면, 모든 영상 처리와 엑셀 저장이 완료됩니다.
 
