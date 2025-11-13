@@ -9,7 +9,6 @@ outputs/
 *.avi
 *.mov
 *.xlsx
-*.png
 __pycache__/
 *.pyc
 .idea/

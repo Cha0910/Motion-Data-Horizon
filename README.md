@@ -1,4 +1,4 @@
-#  Horizon Detector and Roll/Pitch Extractor
+#  수평선 기반 모션 데이터 추정
 
 ##  프로젝트 개요
 
@@ -47,6 +47,8 @@
     * graph/  : 모션 데이터 그래프 이미지 (`.png`)
 
 ````
+
+---
 
 ## 설치 및 실행 방법
 
@@ -103,6 +105,3 @@ python HorizonDetector/draw_graph.py
 | **컴퓨터 비전** | OpenCV (cv2) | 비디오 I/O, Kalman Filter, 광학 흐름(Optical Flow), 윤곽선(Contour) 분석 |
 | **데이터 처리** | NumPy, SciPy | 3차 다항식/선형 회귀, 보간, 필터링 |
 | **출력/시각화** | openpyxl, pandas, matplotlib | Roll/Pitch 데이터 엑셀 저장 및 그래프 자동 생성 |
-
-```
-```
