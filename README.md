@@ -89,14 +89,14 @@
 ### 1.  **프로젝트 클론:**  
 터미널을 열고 원하는 위치에서 다음 명령어를 실행하여 프로젝트를 클론합니다.  
 ```bash  
-  git clone https://github.com/Cha0910/Motion-Data-Horizon.git  
-  ```  
+git clone https://github.com/Cha0910/Motion-Data-Horizon.git  
+```  
 ### 2. 환경 설정  
   
 `requirements.txt` 파일을 사용하여 필요한 모든 Python 라이브러리를 설치합니다.  
   
 ```bash  
-asdpip install -r requirements.txt
+pip install -r requirements.txt
 ````  
   
 ### 3. 실행 방법  
